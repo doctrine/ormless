@@ -58,7 +58,7 @@ abstract class ObjectRepository implements ObjectRepositoryInterface
     /**
      * Finds an object by its primary key / identifier.
      *
-     * {@inheritdoc}
+     * {@inheritDoc}
      *
      * @psalm-return T|null
      */

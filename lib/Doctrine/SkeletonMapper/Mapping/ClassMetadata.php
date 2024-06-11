@@ -100,7 +100,7 @@ class ClassMetadata implements ClassMetadataInterface
      *
      * The returned structure is an array of the identifier field names.
      *
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getIdentifier(): array
     {
@@ -132,7 +132,7 @@ class ClassMetadata implements ClassMetadataInterface
      *
      * This array includes identifier fields if present on this class.
      *
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getFieldNames(): array
     {
@@ -292,7 +292,7 @@ class ClassMetadata implements ClassMetadataInterface
     /**
      * Returns an array of identifier field names numerically indexed.
      *
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getIdentifierFieldNames(): array
     {
